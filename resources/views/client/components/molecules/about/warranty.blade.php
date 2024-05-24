@@ -5,7 +5,7 @@
         <h3 class="font-primary"><u>Warranty</u></h3>
       </div>
       <div class="col-lg-8 col-md-8 col-12">
-        <p class="font-secondary">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias pariatur voluptates, a dicta dolore repudiandae eos provident hic error? Non accusamus consequatur odio iste saepe, natus eligendi totam incidunt voluptate?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt atque at repudiandae iusto! Laboriosam iusto animi ipsum, corrupti, exercitationem fugiat consectetur perferendis rem enim ad non est eos! Labore, qui?</p>
+        <p class="font-secondary">Coverage: Most products come with a manufacturer's warranty that typically covers defects in materials and workmanship. This warranty does not cover damage caused by improper use, accidents, unauthorized repairs, or normal wear and tear. Duration: The duration of the manufacturer's warranty varies by product and brand, typically ranging from one to three years. Specific warranty periods are indicated on the product description page.</p>
       </div>
     </div>
   </div>

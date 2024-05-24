@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\ShopController;
-use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\Admin\OutOfStockController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\OrderController;
 use App\Http\Controllers\Client\ClientController;
@@ -61,7 +61,7 @@ Route::middleware(['auth'])->group(function () {
     });
 
     // Category
-    Route::controller(CategoryController::class)->group(function() {
+    Route::controller(OutOfStockController::class)->group(function() {
         Route::get('/admin/category', 'index')->name('category');
         Route::get('/admin/category/create', 'create')->name('categoryCreate');
         Route::post('/admin/category/check', 'check')->name('categoryCheck');

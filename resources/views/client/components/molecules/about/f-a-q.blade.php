@@ -14,7 +14,7 @@
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="accordion-body font-secondary">
-               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas error nisi, odit saepe sit deleniti repudiandae itaque! Veritatis ab, nihil iste impedit dolor labore tempore optio esse id libero fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet cupiditate perspiciatis suscipit accusantium, voluptatem explicabo labore fuga, repellendus rem laudantium vero similique molestiae obcaecati. Accusantium, sint. Unde culpa temporibus eveniet!
+              How do I know if a component is compatible with my existing PC setup?
               </div>
             </div>
           </div>
@@ -26,7 +26,7 @@
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
               <div class="accordion-body font-secondary">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas error nisi, odit saepe sit deleniti repudiandae itaque! Veritatis ab, nihil iste impedit dolor labore tempore optio esse id libero fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet cupiditate perspiciatis suscipit accusantium, voluptatem explicabo labore fuga, repellendus rem laudantium vero similique molestiae obcaecati. Accusantium, sint. Unde culpa temporibus eveniet!
+              What is your return policy for defective or incompatible parts?
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
               <div class="accordion-body font-secondary">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas error nisi, odit saepe sit deleniti repudiandae itaque! Veritatis ab, nihil iste impedit dolor labore tempore optio esse id libero fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet cupiditate perspiciatis suscipit accusantium, voluptatem explicabo labore fuga, repellendus rem laudantium vero similique molestiae obcaecati. Accusantium, sint. Unde culpa temporibus eveniet!
+              Do you offer warranties on your products?
               </div>
             </div>
           </div>

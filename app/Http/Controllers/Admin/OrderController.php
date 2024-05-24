@@ -33,16 +33,20 @@ class OrderController extends Controller
         $order = Order::where('order_code', $order_code);
         $orderDetail = OrderDetail::where('order_code', $order_code)->get();
         
-        if($request->status == 5){
-
+        if($request->status != 1){
+            foreach($orderDetail as $item){
+                $product = Product::where('title', $item->title)->first();
+                if($product->stock < $item->quantity){
+                    session()->flash('error', 'Not enough stock for product: ' . $item->title);
+                    return redirect()->route('orderDetail', $order_code)->with('failed', 'Not enough stock for product: ' . $item->title);
+                }
+            }
             foreach($orderDetail as $item){
                 $product = Product::where('title', $item->title);
                 $updateStock = $product->first()->stock - $item->quantity;
                 $product->update(['stock' => $updateStock]);
             }
-
         }else{
-
             if($order->first()->status == 5){
                 foreach($orderDetail as $item){
                     $product = Product::where('title', $item->title);
@@ -50,11 +54,8 @@ class OrderController extends Controller
                     $product->update(['stock' => $updateStock]);
                 }
             }
-
         }
-
-        $order->update(['status' => $request->status]);
-
+   
         return redirect()->route('orderDetail', $order_code)->with('success', 'Order Status Changed');
     }
 

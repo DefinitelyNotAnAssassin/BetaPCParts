@@ -22,7 +22,7 @@
                     <td>{{ $loop->iteration }}</td>
                     <td>{{ $row->order_code }}</td>
                     <td>{{ $row->name }}</td>
-                    <td>${{ $row->total }}</td>
+                    <td>₱{{ $row->total }}</td>
                     <td>
                       @if($row->status == 0)
                         <span class="badge bg-warning">Unprocessed</span>

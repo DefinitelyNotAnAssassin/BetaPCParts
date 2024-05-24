@@ -50,7 +50,7 @@
                         <li class="sidebar-item {{ request()->routeIs('category') || request()->routeIs('categoryCreate') ? 'active' : '' }}">
                             <a href="{{route('category')}}" class='sidebar-link'>
                                 <i class="bi bi-stack"></i>
-                                <span>Category</span>
+                                <span>Out of Stock</span>
                             </a>
                         </li>
 
@@ -158,11 +158,11 @@
             <footer>
                 <div class="footer clearfix mb-0 text-muted">
                     <div class="float-start">
-                        <p>2021 &copy; Mazer</p>
+                        <p> &copy;</p>
                     </div>
                     <div class="float-end">
-                        <p>Crafted with <span class="text-danger"><i class="bi bi-heart"></i></span> by <a
-                                href="http://ahmadsaugi.com">A. Saugi</a></p>
+                        <p><span class="text-danger"><i class=""></i></span> <a
+                                href="http://ahmadsaugi.com"></a></p>
                     </div>
                 </div>
             </footer>
@@ -187,6 +187,8 @@
         </script>
     @endif
 
+
+    
     @if(session('failed'))
         <script>
             Toastify({

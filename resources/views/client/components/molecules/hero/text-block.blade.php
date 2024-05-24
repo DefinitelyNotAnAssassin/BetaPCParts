@@ -3,6 +3,6 @@
 @endpush
 
 <div class="text-center text-block-hero py-5">
-    <h1>Sustainable yet stylish lifestye</h1>
-    <p>Autem eveniet eum delectus pariatur. Et maiores sit sed placeat quas voluptatum qui. Suscipit veritatis est provident illum commodi. Voluptas quos culpa. Nobis ex nihil laudantium.</p>
+    <h1>"Power Your Passion with Premium PC Parts"</h1>
+    <p>Our extensive inventory features a wide range of products from the most trusted brands in the industry, ensuring you have access to the latest and greatest in PC hardware.</p>
 </div>

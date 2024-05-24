@@ -1,11 +1,2 @@
-# Laravel Ecommerce
-
-Hi friends, today i hope we get a great day and this repo is a build Simple Ecommerce with laravel, this app ordering without login customer can check order with unique code. This app has only one user is admin to manage thier products customer can't register and login. Specialy for UI for client i use Atomic Design Structure and for admin UI i use beautiful template from [Mazer](https://github.com/zuramai/mazer). 
-
-Social Media : \
-[Instagram](https://www.instagram.com/bedddev/) \
-[Dribbble](https://dribbble.com/bedddev) \
-[Youtube](https://www.youtube.com/channel/UC_XQkWu_EPqam4vHdvh058A)
-
-hope you guys like it\
-Thanks a lot![Thumbnail](https://user-images.githubusercontent.com/78606852/178409940-52907ab3-73df-4d5d-9dec-fa448b39c0d5.png)
+gawa ka ng database sa phpmyadmin na pcparts tas composer install pag ayaw ng install composer update then npm install, npm run dev, php artisan migrate, php artisan db:seed, php artisan key:generate php artisan serve. tas open mo sa browser
+pah may vurnerabilities sa pag npm install at npm run dev hayaan mo lang 

@@ -28,6 +28,5 @@
     </div>
 
     <div class="img-about-us mt-4">
-    <img src="{{ asset('assets/images/about-us-lg.png') }}" alt="" class="img-fluid">
     </div>
 </div>

@@ -21,6 +21,7 @@
       </div>
   </div>
   <div class="col-6 col-lg-3 col-md-6">
+  <a href = "/admin/orders">
       <div class="card">
           <div class="card-body px-3 py-4-5">
               <div class="row">
@@ -36,8 +37,12 @@
               </div>
           </div>
       </div>
+</a>
   </div>
+
+
   <div class="col-6 col-lg-3 col-md-6">
+  <a href = "/admin/products">
       <div class="card">
           <div class="card-body px-3 py-4-5">
               <div class="row">
@@ -53,9 +58,11 @@
               </div>
           </div>
       </div>
+      </a>
   </div>
+
   <div class="col-6 col-lg-3 col-md-6">
-    <a href="">
+    <a href="/admin/out_of_stock">
       <div class="card">
           <div class="card-body px-3 py-4-5">
               <div class="row">

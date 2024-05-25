@@ -29,8 +29,9 @@ class OrderController extends Controller
         return view('admin.order.detail', $data);
     }
 
+ 
     public function updateStatus(Request $request, $order_code){
-        $order = Order::where('order_code', $order_code);
+        $order = Order::where('order_code', $order_code)->first();
         $orderDetail = OrderDetail::where('order_code', $order_code)->get();
         
         if($request->status != 1){
@@ -47,7 +48,7 @@ class OrderController extends Controller
                 $product->update(['stock' => $updateStock]);
             }
         }else{
-            if($order->first()->status == 5){
+            if($order->status == 5){
                 foreach($orderDetail as $item){
                     $product = Product::where('title', $item->title);
                     $updateStock = $product->first()->stock + $item->quantity;
@@ -55,10 +56,14 @@ class OrderController extends Controller
                 }
             }
         }
-   
+
+        // Update the order's status
+        $order->status = $request->status;
+        $order->save();
+
         return redirect()->route('orderDetail', $order_code)->with('success', 'Order Status Changed');
     }
-
+ 
     public function delete($order_code){
         Order::where('order_code', $order_code)->delete();
         OrderDetail::where('order_code', $order_code)->delete();
